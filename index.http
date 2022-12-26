@@ -1,0 +1,9 @@
+POST http://localhost:3000/addbrand
+Content-Type: application/json 
+
+{
+    "brandname":"vivo"
+}
+
+### 
+GET http://localhost:3000/ 
