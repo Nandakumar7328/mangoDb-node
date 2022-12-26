@@ -1,9 +1,11 @@
 const { response } = require('express')
 const  express = require('express')
 const mongoose = require('mongoose')
+const cors = require("cors")
 const BrandName = require('./model')
 const app = express()
 app.use(express.json())
+app.use(cors())
 const port =process.env.PORT || 3000
 mongoose.connect('mongodb+srv://NandaKumar:Nanda7328@cluster0.9j7nchf.mongodb.net/?retryWrites=true&w=majority').then(
     () => console.log("DB Connected..")

@@ -1,8 +1,11 @@
-POST http://localhost:3000/addbrand
+POST http://localhost:3000/adduser
 Content-Type: application/json 
 
 {
-    "brandname":"vivo"
+    "username":"NandaKumar",
+    "email":"nanduaru333@gmail.com",
+    "password":"Nanda@7328",
+    "phonenumber":8971399165
 }
 
 ### 
